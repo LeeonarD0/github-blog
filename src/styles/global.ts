@@ -12,5 +12,9 @@ export const globalStyles = globalCss({
     body: {
         background: "$background",
         color: "$text"
+    },
+
+    "h1, h2, h3, h4, h5, n6" : {
+        fontFamily: "$default"
     }
 })
