@@ -19,7 +19,6 @@ interface UserCardProps {
 }
 
 export function UserCard({user}: UserCardProps) {
-    console.log(user)
     return (
         <Layout>
             <UserCardContainer>
@@ -59,6 +58,6 @@ export function UserCard({user}: UserCardProps) {
                 </UserCardContent>
 
             </UserCardContainer>
-        </Layout>
+            </Layout>
     )
 }

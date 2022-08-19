@@ -9,7 +9,9 @@ export const { styled, globalCss, getCssText } = createStitches({
             primaryShape: '#0B1B2B',
             secondaryShape: '#112131',
             brand: '#3294f8',
-            span: '#7B96b2'
+            span: '#7B96b2',
+            border: '#1C2F41',
+            placeholder: '#3A536B',
         },
 
         fonts: {
